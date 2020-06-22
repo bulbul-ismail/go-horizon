@@ -8,5 +8,5 @@ func main() {
 
 	hand.print()
 	remainingCards.print()
-
+	hand.saveToFile("my__last_hand")
 }
